@@ -28,6 +28,81 @@
   color: #61dafb;
 }
 
+.login {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  min-width: 100px;
+  border-radius: 10px;
+  min-height: 20px;
+}
+
+input {
+  border-radius: 10px;
+  min-height: 20px;
+  min-width: 200px;
+}
+
+.input-login label {
+  margin-right: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+table {
+  margin: 20px;
+  border: 2px solid #000;
+  width: -webkit-fill-available;
+}
+
+table thead {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 20px;
+}
+
+.error-mess {
+  width: fit-content;
+  height: 20px;
+  padding: 5px;
+  border-color: red;
+  border-width: 2px;
+  color:white;
+  background-color: rgba(255,0,0, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.new-user {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.form-new-user {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: baseline;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
